@@ -1,0 +1,313 @@
+* {
+    /* ...* use for whole page */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    width: 100%;
+    height: 47px;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+
+}
+
+.logo img {
+    margin-left: 21px;
+    margin-top: 3px;
+}
+
+.menu a {
+    margin-top: -27px;
+    margin-right: 18px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu button {
+    height: 38px;
+    width: 110px;
+    color: white;
+    background-color: #ff2b85;
+    border-radius: 20px;
+    border-style: none;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(5, 4, 4), #ff2b85);
+}
+
+.menu button:hover {
+    background: linear-gradient(to right, green, red);
+}
+
+.banner {
+    background: url(../Image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 56px;
+}
+
+.banner .h {
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+    background: #ff2b85;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    top: 158px;
+    margin: auto;
+    width: 36%;
+
+}
+
+.banner .search {
+    position: relative;
+    top: 179px;
+}
+
+.banner .search input {
+    width: 600px;
+    height: 38px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    background: rgba(0, 0, 0, .8);
+    padding-left: 10px;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+.p {
+    border: none;
+    width: 640px;
+    margin: 52px;
+
+}
+
+.p h1 {
+    font-family: system-ui;
+    line-height: 1.25;
+    letter-spacing: -.025em;
+    font-weight: bold;
+    font-size: 40px;
+    color: #231F20;
+    position: relative;
+}
+
+.p p {
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-family: system-ui;
+    color: gray;
+    position: relative;
+
+}
+
+.rider {
+    font-family: system-ui;
+    width: 352px;
+    float: left;
+    margin-top: 175px;
+    margin-left: 89px;
+    position: relative;
+}
+
+.rider h3 {
+    font-size: 25px;
+    font-family: SemiBold, sans-serif;
+    position: relative;
+
+}
+
+.rider p {
+    font-size: 17px;
+    font-family: system-ui;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    position: relative;
+}
+
+.img {
+    float: right;
+    margin-right: 65px;
+    position: relative;
+}
+
+.customer {
+    font-family: system-ui;
+    width: 352px;
+    float: right;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    display: inline-flex;
+    position: relative;
+
+
+}
+
+.customer img {
+    margin-left: -170px;
+    margin-top: 121px;
+    position: relative;
+
+}
+
+.panda {
+    font-family: system-ui;
+    width: 400px;
+    float: right;
+    margin-top: -360px;
+    margin-right: 120px;
+    position: relative;
+}
+
+
+.panda h2 {
+    font-size: 25px;
+    font-family: SemiBold, sans-serif;
+    color: #343b46;
+    position: relative;
+}
+
+.panda p {
+    font-size: 17px;
+    font-family: system-ui;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    position: relative;
+}
+
+.team {
+    font-family: system-ui;
+    width: 486px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 89px;
+    color: #343b46;
+    position: relative;
+
+}
+
+.team h2 {
+    font-size: 35px;
+    font-family: SemiBold, sans-serif;
+    color: #343b46;
+    position: relative;
+}
+
+.team p {
+    font-size: 17px;
+    font-family: system-ui;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    position: relative;
+}
+
+.team button {
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color: #ff2b85;
+    border-radius: 25px;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin-left: 146px;
+    position: relative;
+
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    bottom: -1374px;
+    font-family: semibold, sans-serif;
+
+}
+
+.footer img {
+    position: relative;
+    right: 380px;
+    top: 50px;
+}
+
+.footer-content {
+    float: left;
+    position: relative;
+    top: -1154px;
+    color: white;
+    left: 77px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(235px, auto));
+    list-style: none;
+}
+
+
+
+.footer-content h4 {
+    margin-bottom: 15px;
+
+}
+
+.footer-content li a {
+
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all .40s ease;
+    text-decoration: none;
+
+
+
+}
+
+.footer-content li a:hover {
+    transform: translate(-2px) translateX(-5px);
+    color: #fff;
+}
+
+.para {
+    color: white;
+    margin-top: 288px;
+    position: relative;
+    right: 362px;
+
+
+}
+
+.last a {
+    position: relative;
+    bottom: 23px;
+    left: 1089px;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,345 @@
+* {
+    /* ...* use for whole page */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    width: 100%;
+    height: 47px;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+
+}
+
+.logo img {
+    margin-left: 21px;
+    margin-top: 3px;
+}
+
+.menu a {
+    margin-top: -27px;
+    margin-right: 18px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu button {
+    height: 38px;
+    width: 110px;
+    color: white;
+    background-color: #ff2b85;
+    border-radius: 20px;
+    border-style: none;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(5, 4, 4), #ff2b85);
+}
+
+.menu button:hover {
+    background: linear-gradient(to right, green, red);
+}
+
+.banner {
+    background: url(../Image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 56px;
+}
+
+.banner .h {
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+    background: #ff2b85;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    top: 158px;
+    margin: auto;
+    width: 36%;
+
+}
+
+.banner .search {
+    position: relative;
+    top: 179px;
+}
+
+.banner .search input {
+    width: 600px;
+    height: 38px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    background: rgba(0, 0, 0, .8);
+    padding-left: 10px;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+.news {
+    background: #ff2b85;
+    width: 100%;
+    height: 50px;
+}
+
+.news marquee {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about {
+    padding: 40px 200px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+
+}
+
+.about p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 27px;
+    color: #fd5390;
+    font-weight: bold;
+
+}
+
+.about button {
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color: #ff2b85;
+    border-radius: 25px;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.Press {
+    background: url(../Image/Rider-Safety.jpeg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    padding: 133px 185px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+
+.Press h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(231 13 138);
+
+}
+
+.Press p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.Press button {
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color: #ff2b85;
+    border-radius: 25px;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.Team {
+    background: url(../Image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    padding: 133px 185px;
+    text-align: center;
+    background-attachment: fixed;
+
+}
+
+
+.Team h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: center;
+    color: #250513;
+    text-shadow: 30px;
+
+
+}
+
+.Team p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px;
+
+}
+
+.Team button {
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color: #ff2b85;
+    border-radius: 25px;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.Contact {
+    background: #ff2b85;
+    width: 100%;
+    height: 500px;
+    padding: 133px 185px;
+    text-align: center;
+
+}
+
+
+.Contact h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(17, 1, 10);
+
+}
+
+.Contact p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.Contact button {
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer { 
+    background: black;
+    width: 100%;
+    height: 400px;
+    padding: 80px 3%  
+      
+
+}
+.footer8 {
+    
+    float:left;
+    margin-left: 19px;
+    margin-top: 40px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px,auto));
+
+}
+
+.footer8 h4 {
+    font-size: 20px;
+    color: #fff;
+    justify-content: space-between;
+    font-family: regular, sans-serif;
+    
+}
+.footer8 li{
+    margin-bottom: -9px;
+    
+
+}
+.footer8 li a{
+    display: block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+    text-decoration: none;
+
+}
+.footer8 li a:hover{
+    transform: translate(-2px) translateX(-5px);
+    color: #fff;
+}
+.para{
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:53px 10px;
+    width: 100%;
+    
+}
+.para a{
+    color: white;
+    text-decoration: none;
+}
